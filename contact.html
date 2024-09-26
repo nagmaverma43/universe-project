@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+    <video autoplay loop muted src="car_-_2165 (540p).mp4"></video>
+    <div class="container">
+      <h2>Report Car Issue</h2>
+      <form action="submit.php" method="post">
+          <div class="form-group">
+            <label for="carMake">Car Name:</label>
+            <input type="text" id="carMake" name="carName" required>
+            <label for="carMake">phone number:</label>
+            <input type="text" id="carMake" name="phonenumber" required>
+            
+              <label for="carMake">Car Make:</label>
+              <input type="text" id="carMake" name="carMake" required>
+          </div>
+          <div class="form-group">
+              <label for="carModel">Car Model:</label>
+              <input type="text" id="carModel" name="carModel" required>
+          </div>
+          <div class="form-group">
+              <label for="issueDescription">Issue Description:</label>
+              <textarea id="issueDescription" name="issueDescription" rows="4" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+      </form>
+  </div>
+       
+  <script src="contact.js"></script>
+</body>
+</html>

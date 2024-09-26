@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('kk.jpg'); /* Background image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.car-model {
+    margin-right: 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+
+
+h1:hover {
+    animation: shadowPulse 1s infinite alternate;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+    }
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #f1f3f4; /* Blue color */
+    animation: fadeInUp 1s ease-in-out;
+}
+
+h1:hover {
+    animation: shadowPulse 1s infinite alternate;
+}
+/* first.css */
+
+/* first.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Set background color */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative; /* Set container to relative position */
+}
+
+.car-model {
+    /* Add styling for the 3D car model if needed */
+}
+
+.content {
+    text-align: center;
+}
+
+.logo img {
+    width: 170px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Set logo to absolute position */
+    top: 10px; /* Adjust top position as needed */
+    left: 20px; /* Adjust left position as needed */
+}
+
+h1 {
+    font-size: 66px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
